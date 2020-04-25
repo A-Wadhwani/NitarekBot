@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.nitareknayra'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.discord4j:discord4j-core:3.0.14"
+    implementation 'org.json:json:20190722'
+}
